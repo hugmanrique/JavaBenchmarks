@@ -15,8 +15,8 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 /**
  * Results on my machine:
  * Benchmark                              Mode  Cnt     Score    Error  Units
- * CharArrayToByteArray.manual            avgt    5   622,081   11,655  ns/op
  * CharArrayToByteArray.stringAndToBytes  avgt    5  2326,950    3,361  ns/op
+ * CharArrayToByteArray.manual            avgt    5   622,081   11,655  ns/op
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
