@@ -18,12 +18,12 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 /**
  * Results on my machine:
  * Benchmark                      (shiftBy)  Mode  Cnt  Score   Error  Units
- * NotShiftVsTwoShifts.notShift           7  avgt    5  3,791   0,013  ns/op
- * NotShiftVsTwoShifts.notShift           9  avgt    5  3,783   0,020  ns/op
- * NotShiftVsTwoShifts.notShift          14  avgt    5  3,791   0,067  ns/op
- * NotShiftVsTwoShifts.twoShifts          7  avgt    5  3,561   0,013  ns/op
- * NotShiftVsTwoShifts.twoShifts          9  avgt    5  3,559   0,054  ns/op
- * NotShiftVsTwoShifts.twoShifts         14  avgt    5  3,575   0,010  ns/op
+ * NotShiftVsTwoShifts.notShift           7  avgt    5  3.791   0.013  ns/op
+ * NotShiftVsTwoShifts.notShift           9  avgt    5  3.783   0.020  ns/op
+ * NotShiftVsTwoShifts.notShift          14  avgt    5  3.791   0.067  ns/op
+ * NotShiftVsTwoShifts.twoShifts          7  avgt    5  3.561   0.013  ns/op
+ * NotShiftVsTwoShifts.twoShifts          9  avgt    5  3.559   0.054  ns/op
+ * NotShiftVsTwoShifts.twoShifts         14  avgt    5  3.575   0.010  ns/op
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)

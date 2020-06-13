@@ -19,8 +19,8 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
  * great post</a>.
  *
  * Benchmark                    Mode  Cnt  Score   Error  Units
- * CeilIntegerDivision.option1  avgt   25  3,792   0,027  ns/op
- * CeilIntegerDivision.option2  avgt   25  3,851   0,013  ns/op
+ * CeilIntegerDivision.option1  avgt   25  3.792   0.027  ns/op
+ * CeilIntegerDivision.option2  avgt   25  3.851   0.013  ns/op
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)

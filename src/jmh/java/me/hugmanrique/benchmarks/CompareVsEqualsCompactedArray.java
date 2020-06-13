@@ -18,12 +18,12 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 /**
  * Results on my machine:
  * Benchmark                              (bitsPerValue)  Mode  Cnt     Score    Error  Units
- * CompareVsEqualsCompactedArray.compare               7  avgt    5  4517,080   18,746  ns/op
- * CompareVsEqualsCompactedArray.compare               9  avgt    5  4667,507   32,675  ns/op
- * CompareVsEqualsCompactedArray.compare              14  avgt    5  4901,558   17,921  ns/op
- * CompareVsEqualsCompactedArray.equals                7  avgt    5  8081,748   42,750  ns/op
- * CompareVsEqualsCompactedArray.equals                9  avgt    5  8097,779   62,892  ns/op
- * CompareVsEqualsCompactedArray.equals               14  avgt    5  8103,681   89,402  ns/op
+ * CompareVsEqualsCompactedArray.compare               7  avgt    5  4517.080   18.746  ns/op
+ * CompareVsEqualsCompactedArray.compare               9  avgt    5  4667.507   32.675  ns/op
+ * CompareVsEqualsCompactedArray.compare              14  avgt    5  4901.558   17.921  ns/op
+ * CompareVsEqualsCompactedArray.equals                7  avgt    5  8081.748   42.750  ns/op
+ * CompareVsEqualsCompactedArray.equals                9  avgt    5  8097.779   62.892  ns/op
+ * CompareVsEqualsCompactedArray.equals               14  avgt    5  8103.681   89.402  ns/op
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
